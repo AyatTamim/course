@@ -1,0 +1,48 @@
+:root {
+  background: url(../images/nature.jpeg) fixed center center;
+  background-size: cover;
+  box-sizing: border-box;
+  --mainColor: #c2022d;
+  --secondColor: #f0b12f;
+}
+body {
+  background: rgba(100, 112, 49, 0.5);
+  height: 180px;
+  margin: 45px;
+  display: inline-block;
+}
+.task_6 {
+  border: solid var(--secondColor);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-weight: bold;
+  height: 100px;
+  margin: 20px;
+  color: var(--mainColor);
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: var(--secondColor);
+  width: 80vw;
+}
+input:focus {
+  border-color: var(--secondColor);
+}
+
+.data {
+  color: var(--secondColor);
+  text-align: center;
+  color: var(--mainColor);
+  font-style: italic;
+}
+
+.finish {
+  border: var(--secondColor) solid;
+  background: white;
+  text-align: center;
+  color: var(--mainColor);
+}

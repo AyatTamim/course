@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;600&display=swap");
+body {
+  background-color: rgb(198 165 190 / 70%);
+}
+.ex1 {
+  height: 300px;
+  width: 100px;
+  border-radius: 15%;
+  border: 2px solid #8e3874;
+  font-weight: bold;
+  font-family: "Cairo", sans-serif;
+}
+
+.userComment {
+  border: solid #8e3874;
+  border-radius: 5px;
+}
+
+.courses {
+  border: solid #8e3874;
+  border-radius: 5px;
+  background-color: #b1d059;
+}
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #8e3874;
+}
+input:focus {
+  border-color: #b1d059;
+}
+
+.text {
+  color: #8e3874;
+}
+
+.finish {
+  border: #8e3874 solid;
+  border-radius: 10px;
+}
